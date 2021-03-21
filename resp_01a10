@@ -1,0 +1,67 @@
+# EXERCICIO 01
+//RESP. C. O php necessita de um servidor para ser interpretado, independente de Sistema Operacional.
+
+#EXERCICIO 02
+//RESP. D. /* */
+
+#EXERCICIO 03
+//RESP. A. <?php $array = array(); ?>
+
+#EXERCICIO 04
+//RESP. D. GET e POST
+
+#EXERCICIO 05
+//RESP. B. As estruturas de decisão podem ser: simples, compostas e encadeadas;
+
+/////////////////#EXERCICIO 06
+
+<?php
+        #Declaração dos 10 Números
+
+$Num_1 =10;
+$Num_2 =8;
+$Num_3=8;
+$Num_4=10;
+$Num_5=7;
+$Num_6=10;
+$Num_7=6;
+$Num_8=5;
+$Num_9=10;
+$Num_10=5;
+
+      # Soma dos 10 Números 
+$somaNum_ =  $num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9 + $num10 ;
+
+      # Media dos 10 Números
+
+$resultado= $somaNum_ / 10;
+
+echo"A media dos 10 numeros = ".$resultado;
+
+?>
+/////////////////#EXERCICIO 07
+
+<?php
+
+#Declaração dos 5 Números
+
+      $num1 =9;
+      $num2 =8;
+      $num3=5;
+      $num4=10;
+      $num5=7;
+
+      # Calculando do Maior numero 
+    $maiornum = max ($num1,$num2 , $num3 , $num4 , $num5)  ;
+
+      # Maior número
+    echo"O maior numero é = ".$maiornum;
+
+?>
+
+/////////////////#EXERCICIO 08
+
+
+
+
+
