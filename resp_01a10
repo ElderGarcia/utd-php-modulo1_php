@@ -59,7 +59,50 @@ echo"A media dos 10 numeros = ".$resultado;
 
 ?>
 
+
 /////////////////#EXERCICIO 08
+<?php
+
+$mais18   = 0;
+$menos18  = 0;
+
+$idades = array(
+   0 => "35",
+   1 => "10",
+   2 => "10",
+   3 => "18",
+   4 => "21",
+   5 => "23",
+   6 => "60",
+   7 => "13",
+   8 => "25"
+
+);
+
+for ($i =0; $i <= (count($idades)-1); $i++) {
+    if($idades[$i] >18)
+      $mais18++;
+    else
+      $menos18++;
+}
+
+echo ("A quantidade de pessoas com idade maior que 18 é: ".$mais18)."<br>";
+echo ("\n")."<br>";
+echo ("A quantidade de pessoas com idade menor que 18 é: ".$menos18)
+?>
+
+
+/////////////////#EXERCICIO 09
+
+<?php
+$nome=array ("Patricia", "Renata", "Francisco", "Ana");
+
+$nome2=array_reverse($nome);
+
+print_r ($nome2);
+?>
+
+/////////////////#EXERCICIO 10
 
 
 
