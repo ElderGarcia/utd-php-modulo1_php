@@ -104,7 +104,20 @@ print_r ($nome2);
 
 /////////////////#EXERCICIO 10
 
+<?php
 
+    $Data = "16/03/2021";
+
+    $dia = substr($Data, 0, 2);  
+    $mes = substr($Data, 3, 2);
+    $ano = substr($Data, 8, 2);
+
+
+  echo "Dia: ".$dia."<br>";
+  echo "Mes: ".$mes."<br>";
+  echo "Ano: ".$ano
+
+?>
 
 
 
